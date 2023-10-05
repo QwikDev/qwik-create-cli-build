@@ -88,7 +88,7 @@ ${Vt(ra+Ar.repeat(r+2)+oa)}
 `,type:"modify"})}catch{n.files.push({path:e,content:s,type:"create"})}}async function Da(n,t,e){let s=await dt.default.promises.readFile(t,"utf-8");try{let r=JSON.parse(s),o=JSON.parse(await dt.default.promises.readFile(e,"utf-8"));Object.assign(r,o),n.files.push({path:e,content:JSON.stringify(r,null,2)+`
 `,type:"modify"})}catch{n.files.push({path:e,content:s,type:"create"})}}function ha(n,t,e){if(n[e]){t[e]?Object.assign(t[e],{...n[e]}):t[e]={...n[e]};let s={},r=Object.keys(t[e]).sort();for(let o of r)s[o]=t[e][o];t[e]=s}}async function fa(n,t,e){let s=await dt.default.promises.readFile(t,"utf-8"),r,o="";try{o=await dt.default.promises.readFile(e,"utf-8"),o=o.trim()+`
 
-`+s,r="modify"}catch{o=s,r="create"}let i=Gt();i!=="npm"&&(o=o.replace(/npm run/g,i)),n.files.push({path:e,content:o.trim()+`
+`+s,r="modify"}catch{o=s,r="create"}let i=Gt();i!=="npm"&&(o=o.replace(/\b(npm run|pnpm run|yarn( run)?)\b/g,i)),n.files.push({path:e,content:o.trim()+`
 `,type:r})}async function pa(n,t,e){let s=await dt.default.promises.readFile(t,"utf-8");try{let r=await dt.default.promises.readFile(e,"utf-8"),o=s.trim().split(/\r?\n/),i=r.trim().split(/\r?\n/);for(let a of o)i.includes(a)||(a.startsWith("#")&&i.push(""),i.push(a));n.files.push({path:e,content:i.join(`
 `).trim()+`
 `,type:"modify"})}catch{n.files.push({path:e,content:s,type:"create"})}}async function da(n,t,e){let s=await dt.default.promises.readFile(t,"utf-8");try{let r=await dt.default.promises.readFile(e,"utf-8"),o=s.trim()+`
