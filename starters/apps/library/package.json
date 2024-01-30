@@ -33,7 +33,7 @@
     "release": "np"
   },
   "devDependencies": {
-    "@builder.io/qwik": "1.4.2",
+    "@builder.io/qwik": "1.4.3",
     "@types/eslint": "^8.56.2",
     "@types/node": "^20.11.6",
     "@typescript-eslint/eslint-plugin": "^6.19.1",
