@@ -1,0 +1,13 @@
+{
+  "name": "qwik-empty-starter",
+  "description": "Blank project with routing included",
+  "type": "module",
+  "__qwik__": {
+    "priority": 1,
+    "displayName": "Empty App (Qwik + Qwik Router)",
+    "qwikRouter": true,
+    "docs": [
+      "https://qwik.dev/docs/getting-started/"
+    ]
+  }
+}
