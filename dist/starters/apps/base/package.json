@@ -26,6 +26,7 @@
     "globals": "16.0.0",
     "prettier": "3.3.3",
     "typescript": "5.4.5",
+    "typescript-plugin-css-modules": "latest",
     "undici": "*",
     "vite": "5.3.5",
     "vite-tsconfig-paths": "^4.2.1"
