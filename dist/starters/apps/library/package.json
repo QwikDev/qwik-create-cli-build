@@ -35,7 +35,7 @@
   "devDependencies": {
     "@builder.io/qwik": "1.15.0",
     "@eslint/js": "latest",
-    "@types/node": "20.14.11",
+    "@types/node": "20.19.0",
     "typescript-eslint": "8.26.1",
     "eslint": "9.25.1",
     "eslint-plugin-qwik": "1.15.0",
@@ -44,7 +44,7 @@
     "prettier": "3.3.3",
     "typescript": "5.4.5",
     "undici": "*",
-    "vite": "5.3.5",
+    "vite": "7.0.6",
     "vite-tsconfig-paths": "^4.2.1"
   },
   "__qwik__": {
