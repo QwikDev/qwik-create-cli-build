@@ -41,7 +41,7 @@
     "eslint-plugin-qwik": "1.15.0",
     "globals": "16.0.0",
     "np": "^8.0.4",
-    "prettier": "3.3.3",
+    "prettier": "3.6.2",
     "typescript": "5.4.5",
     "undici": "*",
     "vite": "7.0.6",
