@@ -28,7 +28,7 @@
     "typescript": "5.4.5",
     "typescript-plugin-css-modules": "latest",
     "undici": "*",
-    "vite": "7.1.5",
+    "vite": "7.1.7",
     "vite-tsconfig-paths": "^4.2.1"
   },
   "engines": {
